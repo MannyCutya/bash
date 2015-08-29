@@ -65,13 +65,13 @@
 	clear
 	echo "Pushing /home/goit/ to git..."
 	git --git-dir=/home/goit/.git --work-tree=/home/goit/ commit -m "nightly commit"
-	git --git-dir=/home/goit/.git --work-tree=/home/goit/ push origin nightly
+	git --git-dir=/home/goit/.git --work-tree=/home/goit/ push origin master
 
 	### Scripts
 	clear
 	echo "Pushing /home/goit/scripts to git..."
 	git --git-dir=/home/goit/scripts/.git --work-tree=/home/goit/scripts commit -m "nightly commit"
-	git --git-dir=/home/goit/scripts/.git --work-tree=/home/goit/scripts push origin nightly
+	git --git-dir=/home/goit/scripts/.git --work-tree=/home/goit/scripts push origin master
 
 	echo ""
 
