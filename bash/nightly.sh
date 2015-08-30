@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ssh-agent -s
+
 ### Update and Upgrade
 
     date | grep "Sat"
