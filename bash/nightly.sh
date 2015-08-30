@@ -25,6 +25,8 @@
                 start_vnc.sh
                 .vnc
                 .vimrc
+                Games/
+                My\ Games
                 README.md
                 )
 
